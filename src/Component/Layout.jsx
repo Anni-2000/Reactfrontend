@@ -1,8 +1,10 @@
 import React from 'react'
  import { Navbar, Container, Nav } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Link,Image } from 'react-router-dom'
 const Layout = () => {
   return (
+    <div>
+       <Image src="https://www.pngall.com/wp-content/uploads/5/Employee-Management-System-PNG-High-Quality-Image.png" fluid />
     <Navbar bg="primary" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home">Employee Management System</Navbar.Brand>
@@ -14,6 +16,7 @@ const Layout = () => {
           </Nav>
         </Container>
       </Navbar>
+      </div>
   )
 }
 
