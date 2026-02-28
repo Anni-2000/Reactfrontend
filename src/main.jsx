@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import AllData from './Component/AllData.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
+import Page from './Component/Page.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Dashboard from './Component/Dashboard.jsx'
 import Layout from './Component/Layout.jsx'
@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
 
       <Routes>
-        <Route path="/" element={<Layout/>} />
+        <Route path="/" element={<><Layout /><Page/></>}/>
         <Route path="/dashboard" element={<><Layout/><Dashboard /></>} />
         <Route path="/AllData" element={<><Layout/><AllData /></>} />
            <Route path="/update/:id" element={<><Layout/><Update /></>} />
