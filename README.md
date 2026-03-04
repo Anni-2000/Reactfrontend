@@ -1,6 +1,6 @@
  site Link:https://reactfrontend-bay.vercel.app/
 
-![Homepage Screenshot](./Screenshots/home.png)
+![Homepage Screenshot](public/Screenshot/dashbord.png)
 ![Dashboard](./Screenshots/dashbord.png)
 
 README Analysis: React + Vite Template
