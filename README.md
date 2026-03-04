@@ -1,7 +1,8 @@
  site Link:https://reactfrontend-bay.vercel.app/
 
- screenshot
- public/Screenshot/dashbord.png
+![Homepage Screenshot](./Screenshots/home.png)
+![Dashboard](./Screenshots/dashbord.png)
+
 README Analysis: React + Vite Template
 1. Purpose of the Template
 
